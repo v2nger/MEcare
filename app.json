@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "main",
+    "slug": "teamhealthreset",
+    "version": "1.0.0",
+    "newarchenabled": "true",
+    "entryPoint": "./App.js",
+    "orientation": "portrait",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "icon": "./assets/fenerbahce_logo.png",
+    "splash": {
+      "image": "./assets/fenerbahce_logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#00417f"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "package": "com.teamhealthreset.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/fenerbahce_logo.png",
+        "backgroundColor": "#ffff00"
+      }
+    },
+    "plugins": [
+      "expo-signature"
+    ]
+  }
+}
